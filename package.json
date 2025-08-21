@@ -1,0 +1,21 @@
+{
+  "name": "riverxpay",
+  "version": "1.0.0",
+  "description": "Crypto payments for Shopify",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "mongoose": "^7.5.0",
+    "ejs": "^3.1.9",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["shopify", "coinbase", "crypto", "payments"],
+  "author": "Fatlum Syla",
+  "license": "ISC"
+}
